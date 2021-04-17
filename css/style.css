@@ -163,16 +163,21 @@ color: #008ed6;
 .title-2 p{
 	font-size: 16px;
     color: #b4b4b4;
-        margin-top: 16px;
-    margin-bottom: 28px;;
+           margin-top: 20px;
+    margin-bottom: 40px;
 }
 .title-2 ul li{
  font-size: 18px;
- margin-bottom: 8px;
-}
+     margin-bottom: 12px;
+ }
 .title-2 ul li i{
- color: #008ed6;
- margin-right: 16px;
+     color: #008ed6;
+    margin-right: 16px;
+    width: 30px;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left
 }
 .feature-text{
 	margin-top: 18px;
