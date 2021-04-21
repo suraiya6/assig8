@@ -223,3 +223,358 @@ features-3 section
     margin-bottom: 28px;
         
 }
+
+/*===================
+testimonial section
+=====================*/
+.testimonial{
+	width: 100%;
+	background: url(../img/testimonial.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+}
+.tesi-title{
+	text-align: center;/*
+	    margin-bottom: 43px;*/
+}
+.tesi-title h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 2px;
+
+}
+.tesi-title h1{
+
+
+ color: white;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.testimonial .col-md-10{
+	text-align: left;
+	padding-left:0; 
+} 
+.testimonial .col-md-2{
+	padding-right: 0;
+}
+.comment h4{
+	color: #ffffff;
+	    font-size: 23px;
+	font-style: italic;
+	font-weight: 400;
+	    margin-bottom: 18px;
+}
+.comment span{
+	color: #ffffff;
+	font-size: 16px;
+
+}
+.comment p{
+	color: white;
+	font-size: 18px;
+	    font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+/*===================
+theme section
+=====================*/
+
+.theme{
+	width: 100%;
+	padding: 60px 0;
+	background: #15141a;
+
+}
+.theme h4{
+	color: #ffffff;
+	font-size: 36px;
+	font-weight:300;
+	text-align: left;
+}
+.theme  span{
+	color: white !important;
+	/*font-size: */
+	font-weight:600;
+}
+.theme-btn{
+	text-align: right;
+} 
+.theme-btn button{
+
+    border: 1px solid #4d4d52;
+	background: transparent;
+	color: white;
+	padding:12px 32px;
+  	margin-right: 14px;
+    border-radius: 4px;
+    font-size:14px;
+    font-weight: bold;
+    outline: none;
+}
+.theme .col-md-8{
+	/*padding-right: 0;*/
+}
+.theme .col-md-4{
+	margin: 0;
+	padding: 0;
+}
+.theme-btn1{
+	background: #008ed6 !important;
+	border: 1px solid #008ed6 !important;	
+}
+
+/*===================
+pricing section
+=====================*/
+.pricing{
+width: 100%;
+padding: 80px 0;
+
+}
+.pricing-text{
+	margin-top: 65px;
+}
+.title-4{
+	text-align: center;
+	
+	          /* margin-top: 15px;*/
+}
+   	
+
+.title-4 h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+.title-4 h1{
+
+
+ color: #1a1a1a;
+     font-size: 36px;
+ font-weight: 600;
+}
+.table{
+     border: 1px solid #dad1d1;
+    text-align: center;
+}
+.t-header{
+    padding: 14px;
+    border-bottom: 1px solid #cabebe;
+}
+.t-header h2{
+	    margin: 0;
+    text-transform: uppercase;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+.t-body {
+	    border-bottom: 1px solid #bbb7b7;
+    padding: 16px 0;
+}
+.t-body h1 {
+      margin: 0;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+}
+.t-body h1::before{
+       position: absolute;
+    content: '$';
+    top: 12px;
+    left: 30%;
+    font-size: 30px;
+    font-weight: 600;
+}
+ .t-body .h1-head::before{
+	    position: absolute;
+    content: '$';
+    top: 15px;
+    left: 37% !important;
+    font-size: 29px;
+    font-weight: 600;
+}
+.t-body h1 span{
+    font-size: 21px;
+}
+.t-body p{
+ color: #bbb7b7;
+ font-size: 18px;
+ font-style: italic;
+
+}
+.t-des {
+    padding: 16px;
+}
+.t-des p{
+margin: 14px;
+    font-size: 18px;
+    color: #bbb7b7;
+}
+.t-des button{
+	 padding: 12px 42px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+        margin-top: 10px;
+    background: transparent;
+    color: #008ed6;
+    border: 1px solid #d4c8c8;
+    margin-bottom: 12px;
+}
+.table:hover .t-header h2{
+	color: #008ed6; 
+}
+.table:hover .t-body{
+	background:#008ed6;
+}
+.table:hover .t-body h1,.table:hover .t-body p{
+	color: white;
+}
+.table:hover .t-des button{
+	background:#008ed6;
+	color: white; 
+}
+/*===================
+contact section
+=====================*/
+.contact{
+	width: 100%;
+	padding:80px 0;
+	background: #ededed;
+}
+.title-5{
+	text-align: center;
+	
+	         
+}
+   	
+
+.title-5 h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+.title-5 h1{
+
+
+ color: #1a1a1a;
+     font-size: 36px;
+ font-weight: 600;
+}
+.contact-icon{
+	    text-align: center;
+    padding: 27px;
+
+    margin-bottom: 36px;
+}
+.contact-icon i{
+	width: 70px;
+    height: 70px;
+    /* background: #008ed6; */
+    line-height: 70px;
+    color: #008ed6;
+    font-size: 36px;
+    font-weight: 400;
+}
+.contact-icon p{
+	padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #c7c7c7;
+}
+.form-contact{
+	background:#15141a;
+	padding:50px;
+	width: 60%;
+	margin: auto;
+
+}
+.form-control{
+	    background: transparent !important;
+    color: #444348 !important;
+    border: 2px solid #444348 !important;
+    outline: none !important;
+    padding: 14px 22px;
+    margin-bottom: 16px;
+}
+.Contact-btn{
+text-align: right;
+}
+.Contact-btn button{
+color: white;
+    padding: 14px 40px;
+    /* margin-right: 2px; */
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    background: #008ed6;
+    border: none;
+    text-transform: uppercase;
+   
+}
+
+.Contact-text{
+ z-index: 1;
+
+}
+.map{
+z-index: -1 !important;
+margin-top: -150px;
+}
+
+/****************
+ footer section
+********************/
+.footer{
+width: 100%;
+background: black;
+padding: 30px 0;
+text-align: center;
+}
+.footer-text{
+	margin-top: 12px;
+}
+.footer-icon{
+
+}
+.footer-icon ul li{
+ list-style: none;
+ display: inline-block;
+  margin-top: 38px;
+}
+.footer-icon ul li a {
+      padding: 10px 10px;
+}
+.footer-icon ul li a i{
+ font-size: 24px;
+    color: #444348;
+    text-align: center;
+}
+.footer-icon ul li a i:hover{
+	    color: #008ed6;
+}
+
+.footer-text p{
+	color: #444348;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+
+}
+.footer-text p a i{
+	font-size: 12px;
+    color: #444348;
+}
